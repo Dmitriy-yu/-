@@ -14,8 +14,14 @@ fmt.Scan(&value2)
 fmt.Println("Введите действие +,-,*,/,")
 fmt.Scan(&result)
 switch result {
-case "+":
+case  "+":
 fmt.Println(value1+value2)
+case  "-":
+	fmt.Println(value1-value2)
+case  "*":
+	fmt.Println(value1*value2)
+case  " /":
+	fmt.Println(value1/value2)
 }
 
 }	
