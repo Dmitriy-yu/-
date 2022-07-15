@@ -25,7 +25,7 @@ fmt.Println("Введите первое число")
 fmt.Scan(&a)
 fmt.Println("Введите второе число")
 fmt.Scan(&b)
-fmt.Println("Введите действие")
+fmt.Println("Введите действие+,-,*,/")
 fmt.Scan(&c)
 result:=Person{a,b}
 if c=="+" {
